@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 64px;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    width: 250px;
+    background-color: rgb(39, 39, 39);
+    transition: all ease-in-out 500ms;
+}
+
+.wrap-content {
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.wrap-content ul {
+    list-style: none;
+}
+
+.wrap-content ul li {
+    margin-bottom: 30px;
+}
+
+.wrap-content ul li a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* #btn {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+} */
